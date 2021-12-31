@@ -3,24 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>payment form</title>
+    <title>Payment Form</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/logo.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./payment.css"> 
 </head>
-<link rel="stylesheet" href="/payment form/payment.css"> 
 <header>
-    <br>
-    <h1>payment form</h1>
-    <br>
+    <h1 class="payment_form">Payment Form</h1>
 </header>
 <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://www.sanskriti.edu.in" target="blank">Sanskriti University</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Library <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Oops</a></li>
+                <li><a href="#">Data Structure</a></li>
+                <li><a href="#">CAO</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Result</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="mg">
+    
     <h2>Step-1</h2>
-    <h4>Persional information<hr><h6>* please fill the all required field</h6></h4>
+    <h4>Persional information<hr>
+        <p class="required">* Please Fill The all required field</p>
+    </h4>
     
     
     <p>1. First Name <input type="text" name="Name" id="Name" placeholder="Enter First Name.." required></p>
     <p>2. Last Name <input type="text" name="Name" id="Name"  placeholder="Enter Last Name.." required></p>
     <fieldset>
         <legend>3.Gender</legend>
-    <p>Male<input type="radio" name="Gender" id="male" required>Female <input type="radio" name="Gender" id="Female" required></p>
+    <p class="gender">Male<input type="radio" name="Gender" id="male" required>
+        Female <input type="radio" name="Gender" id="Female" required>
+    </p>
     </fieldset>
     <p>4. E-mail<input type="email" name="email" id="email" placeholder="Enter email" required></p>
     <p>5. Contact No<input type="number" name="number" id="number" placeholder="Enter Number" required></p>
@@ -41,12 +73,15 @@
         <p>2. Card number <input type="number" name="Card number" id="card number" placeholder="Enter 16 digits number"></p>
         <p>3. Exp Date <input type="date" name="Date" id="Date"></p>
         <p>4. CVV <input type="password" name="CVV" id="CVV" placeholder="Enter 3 digits number"></p>
-        <div>
-        <p><input type="submit" value="pay now"></p></div>
+        <div class="pay">
+        <a href="./welcome.html"><p ><input type="submit" value="Pay Now"></p></a>
+    </div>
     </p>
-    <footer>
-        <hr>
-        Term &nbsp;&nbsp; privacy policy &nbsp;&nbsp; Contact&nbsp;&nbsp; support&nbsp;&nbsp;etc..
+    <footer class="footer">
+
+        Term &nbsp;&nbsp; Privacy Policy &nbsp;&nbsp; Contact&nbsp;&nbsp; Support&nbsp;&nbsp;etc..
     </footer>
+
+</div>
 </body>
 </html>

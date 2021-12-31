@@ -1,0 +1,31 @@
+header,h1{
+    font-style: oblique ;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+*{
+    /* background-color: aliceblue; */
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+}
+.mg{
+    margin-bottom: 5px;
+    margin: 30px;
+
+}
+p{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+.footer
+{
+    color: black;
+    width: fit-content;
+    font-style: italic;
+    
+}

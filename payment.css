@@ -1,12 +1,13 @@
 header,h1{
     font-style: oblique ;
     text-align: center;
-    background-color: royalblue;
-    color: white;
-    border-radius: 4px;
+    height: 100px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
 }
 *{
-    background: rgb(243, 241, 241)
+    /* background-color: aliceblue; */
+    margin: 0px;
 }
 input[type=text],select,input[type=number],input[type=date],input[type=email],input[type=password],textarea{
     background-color: white;
@@ -17,6 +18,29 @@ input[type=text],select,input[type=number],input[type=date],input[type=email],in
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 10px;
+}
+body{
+    background-color: aliceblue;
+}
+.pay
+{
+    text-align: center;
+}
+.mg{
+    margin-bottom: 5px;
+    margin: 30px;
+
+}
+.stp
+{
+    margin-top: 30px;
+}
+.footer
+{
+    color: black;
+    width: fit-content;
+    font-style: italic;
+    
 }
 p,fieldset{
     margin: 20px 20px;
@@ -31,6 +55,11 @@ fieldset,legend,input[type=radio]{
 p{
     padding: 5px;
 }
+.gender
+{
+    background-color: aliceblue;
+    width: fit-content;
+}
 input[type=submit]{
     padding: 13px;
     width: 100px;
@@ -44,10 +73,4 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: rgb(40, 156, 40);
     cursor: pointer;
-}
-div{
-    text-align: center;
-}
-h6{
-    color: red;
 }
